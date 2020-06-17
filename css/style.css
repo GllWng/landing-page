@@ -4,6 +4,7 @@
 @import url("components/button.css");
 @import url("components/banner.css");
 @import url("components/card.css");
+@import url("components/navbar.css");
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -18,9 +19,6 @@ h1, h2, h3	{
 
 a {
 	text-decoration: none;
-
-
-
 }
 
 

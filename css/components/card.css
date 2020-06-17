@@ -13,10 +13,11 @@
     margin: 10px;
     flex-basis: 250px;
     flex-grow: 1;
+    flex-direction: column;
 }
 
 .card img {
-    width: 150px;
+    width: 250px;
     height: 150px;
     border-radius: 5px;
     object-fit: cover;
@@ -28,3 +29,39 @@
     font-size: 20px;
 }
 
+.card-landscapes {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    padding: 10px;
+    align-items: center;
+    flex-basis: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-landscapes img {
+    object-fit: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    }
+
+.card-landscapes:hover .landscape-name {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.landscape-name {
+  display:none;
+}
